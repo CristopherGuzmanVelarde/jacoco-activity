@@ -229,54 +229,6 @@ El reporte detallado se genera en: `target/site/jacoco/index.html`
 - 📈 Métricas por paquete y clase
 - 🎯 Identificación de código no cubierto
 
-## 🚀 Cómo Ejecutar
-
-### 📋 Prerrequisitos
-
-- ☕ Java 21+
-- 📦 Maven 3.9+
-- 🔧 IDE compatible (IntelliJ IDEA, Eclipse, VS Code)
-
-### 🏃‍♂️ Pasos de Ejecución
-
-1. **📥 Clonar el repositorio**
-   ```bash
-   git clone <repository-url>
-   cd vg-quality-challenge
-   ```
-
-2. **🔧 Compilar el proyecto**
-   ```bash
-   mvn clean compile
-   ```
-
-3. **🧪 Ejecutar pruebas con JaCoCo**
-   ```bash
-   mvn clean test
-   ```
-
-4. **📊 Generar reporte de cobertura**
-   ```bash
-   mvn jacoco:report
-   ```
-
-5. **🌐 Ver reporte en navegador**
-   ```bash
-   # Windows
-   start target/site/jacoco/index.html
-   
-   # macOS
-   open target/site/jacoco/index.html
-   
-   # Linux
-   xdg-open target/site/jacoco/index.html
-   ```
-
-6. **🚀 Ejecutar aplicación**
-   ```bash
-   mvn spring-boot:run
-   ```
-
 ### 🌐 Endpoints de Prueba
 
 ```bash
@@ -343,15 +295,5 @@ curl -X DELETE http://localhost:8080/api/v1/users/{id}
 | **Patrones Implementados** | 0 | 8 | +8 |
 
 ---
-
-<div align="center">
-
-**🎉 ¡Actividad JaCoCo Completada Exitosamente! 🎉**
-
-*Proyecto refactorizado con buenas prácticas, pruebas unitarias y cobertura de código*
-
-![Success](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![Quality](https://img.shields.io/badge/Code%20Quality-Improved-brightgreen?style=for-the-badge)
-![Coverage](https://img.shields.io/badge/Test%20Coverage-85%25-blue?style=for-the-badge)
 
 </div>
